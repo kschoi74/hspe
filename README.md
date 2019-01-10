@@ -47,7 +47,16 @@ Opendr can be checked as
 ```
 It will pop some windows including cubes.
 
+### Demo
 Finally, move to the folder of this package.
+
+1. Download the pre-trained models
 ```
-  python -m demo __img_path data/coco1.png
+wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && tar -xf models.tar.gz
+```
+
+2. Run the demo
+```
+python -m demo --img_path data/coco1.png
+
 ```
