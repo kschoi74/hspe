@@ -44,6 +44,17 @@ Opendr can be checked as
   python demo_fit_cube.py
 ```
 It will pop some windows including cubes.
+If an error occurs in scipy, a simple modification is required.
+You search for scipy in site-packages of your conda environment. Edit sputils.py at line 281 in scipy/sparse
+
+```
+new_shape = tuple(operator.index(arg) for arg in args)
+```
+
+changed to 
+```
+new_shape = tuple(operator.index(int(arg)) for arg in args)
+```
 
 ### Demo
 Finally, move to the folder of this package.
