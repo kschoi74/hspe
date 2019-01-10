@@ -58,5 +58,4 @@ wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && ta
 2. Run the demo
 ```
 python -m demo --img_path data/coco1.png
-
 ```
