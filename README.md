@@ -18,7 +18,11 @@ This version of HMR runs with python 3.6 on Windows.
 
 In a terminal of the conda environment, go to the opendr folder. It has both `opendr` and `chumpy` folders.
 
-2. Install both on the conda environment by
+2. Correct `opendr/renderer.py` file
+
+Uncomment line 484 to obtain normals in tn() method.
+
+3. Install both on the conda environment by
 moving into opendr then,
 ```
   pip install .
@@ -34,11 +38,12 @@ Move into chumpy then,
 ```
 This install chumpy (0.66) that works with opendr.
 
-3. `ipdb` & `glfw` should also be installed, but they are not in Anaconda Packaging.
+4. `ipdb` & `glfw` should also be installed, but they are not in Anaconda Packaging.
 ```
   pip install ipdb
   pip install glfw
 ```
+
 Opendr can be checked as
 ```
   python demo_fit_cube.py
