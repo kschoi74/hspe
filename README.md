@@ -10,18 +10,16 @@ This version of HMR runs with python 3.6 on Windows.
 
 ### Installation
 #### Setup conda environment
-Make an environment with python 3.6 in Anaconda.
-
-Install numpy, scikit-image, pyopengl, py-opencv, bottleneck, tensorflow using Anaconda Packaging.
+1. Make an environment with python 3.6 in Anaconda.
+2. Install numpy, scikit-image, pyopengl, py-opencv, bottleneck, tensorflow using Anaconda Packaging.
 
 #### Install opendr
-Download opendr from https://github.com/polmorenoc/opendr
+1. Download opendr from https://github.com/polmorenoc/opendr
 
 In a terminal of the conda environment, go to the opendr folder. It has both opendr and chumpy folders.
 
-Install both on the conda environment as
-
-Move into opendr then,
+2. Install both on the conda environment by
+moving into opendr then,
 ```
   pip install .
 ```
@@ -36,7 +34,7 @@ Move into chumpy then,
 ```
 This install chumpy (0.66) that works with opendr.
 
-ipdb & glfw should also be installed, but they are not in Anaconda Packaging.
+3. ipdb & glfw should also be installed, but they are not in Anaconda Packaging.
 ```
   pip install ipdb
   pip install glfw
