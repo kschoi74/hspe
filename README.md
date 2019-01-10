@@ -1,7 +1,7 @@
 # Human Shape and Pose Estimation
 
 The HMR (End-to-end recovery of human shape and pose, CVPR 2018 by Angjoo Kanazawa, Michael J. Black, David W. Jacobs, Jitendra Malik) runs with python 2.7 on the linux system.
- 
+
 This version of HMR runs with python 3.6 on Windows.
 
 Make an environment with python 3.6 in Anaconda.
@@ -10,30 +10,36 @@ Install numpy, scikit-image, pyopengl, py-opencv, bottleneck, tensorflow using A
 
 Download opendr from https://github.com/polmorenoc/opendr
 
-In a terminal of the conda environment, go to the opendr folder. It has both opendr and chumpy folders. 
+In a terminal of the conda environment, go to the opendr folder. It has both opendr and chumpy folders.
 
 Install both on the conda environment as
 
 Move into opendr then,
-pip install .
+
+  pip install .
 
 This procedure installs chumpy (0.76) from PyPI, which does not work with opendr. So,
-pip uninstall chumpy
+
+  pip uninstall chumpy
 
 Move into chumpy then,
-pip install .
+
+  pip install .
 
 This install chumpy (0.66) that works with opendr.
 
 ipdb & glfw should also be installed, but they are not in Anaconda Packaging.
 
-pip install ipdb
-pip install glfw
+  pip install ipdb
 
-Opendr can be checked as 
-python demo_fit_cube.py
+  pip install glfw
+
+Opendr can be checked as
+
+  python demo_fit_cube.py
 
 It will pop some windows including cubes.
 
 Finally, move to the folder of this package.
-python -m demo __img_path data/coco1.png
+
+  python -m demo __img_path data/coco1.png
