@@ -11,7 +11,7 @@ This version of HMR runs with python 3.6 on Windows.
 ### Installation
 #### Setup conda environment
 1. Make an environment with python 3.6 in Anaconda.
-2. Install `numpy`, `scikit-image`, pyopengl, py-opencv, bottleneck, tensorflow using Anaconda Packaging.
+2. Install `numpy`, `scikit-image`, "pyopengl", 'py-opencv', bottleneck, tensorflow using Anaconda Packaging.
 
 #### Install opendr
 1. Download opendr from https://github.com/polmorenoc/opendr
