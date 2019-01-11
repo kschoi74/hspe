@@ -48,10 +48,6 @@ Opendr can be checked as
 ```
   python demo_fit_cube.py
 ```
-If an error by opencv, install openCV : `pip install OpenCV-Python`.
-
-If an error by opengl, install openGL : `pip install pyopengl`.
-
 It will pop some windows including cubes.
 If an error occurs in scipy, a simple modification is required.
 You search for scipy in site-packages of your conda environment. Edit sputils.py at line 281 in scipy/sparse
