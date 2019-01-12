@@ -41,7 +41,7 @@ Please note that usage of this data is for [**non-comercial scientific research 
 If you use any of the MoSh data, please cite: 
 ```
 article{Loper:SIGASIA:2014,
-  title = {{MoSh}: Motion and Shape Capture from Sparse Markers},
+  title = { {MoSh}: Motion and Shape Capture from Sparse Markers},
   author = {Loper, Matthew M. and Mahmood, Naureen and Black, Michael J.},
   journal = {ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
   volume = {33},
